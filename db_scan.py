@@ -69,9 +69,11 @@ class DBScanner:
         y = (p.y - q.y)
         return math.sqrt(x*x + y*y)
 
+    def get_clusters(self):
+        return set(self.label)
+
     def print_clusters(self):
-        label = set(self.label)
-        for item in label:
+        for item in self.get_clusters():
             print 'Cluster # ', item
 
 
