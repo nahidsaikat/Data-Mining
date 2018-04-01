@@ -1,4 +1,4 @@
-from db_scan import DBScanner
+from k_means import DBScanner
 
 scanner = DBScanner(0.1, 5)
 scanner.db_scan()
