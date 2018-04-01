@@ -1,6 +1,5 @@
-# DBSCAN Algorithm
-Implementation of DBSCAN algorithm in Python.
+# Data Mining
 
-Machine learning library are no used here.
+Raw implementation of various data mining algorithm in python.
 
-Only raw Python code.
+No library is used in those implementation.
